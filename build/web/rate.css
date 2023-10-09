@@ -1,0 +1,37 @@
+body{
+	margin: 0;
+	font-family: sans-serif;
+}
+*{
+	box-sizing: border-box;
+}
+.rating-box{
+	background-color: #ddd;
+	max-width: 600px;
+	margin: 40px auto;
+	padding: 50px;
+}
+.rating-box .rating .fa{
+	font-size: 40px;
+	color: #FF9800;
+	float: left;
+	cursor: pointer;
+}
+.rating-box input{
+	margin-top: 20px;
+	font-size: 30px;
+	padding: 6px 12px;
+	background-color: #bbb;
+}
+.rating-box .btn{
+	width: 40%;
+	padding: 10px 10px;
+	display: block;
+	margin: auto;
+	background: linear-gradient(to right, #ff105f,#ffad06);
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+	cursor: pointer;
+	text-align: center;
+}
